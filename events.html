@@ -1,0 +1,243 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- for Bootstrap Css 4.5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- fontawesome  -->
+    <script src="https://kit.fontawesome.com/c7e16085a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary container my-2">
+            <a class="navbar-brand" href="#"><img src="gcitlogo.jpg" alt="ugyen" width="100" height="100" style="border-radius: 10px;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="timetable.html">Timetable</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Bmi.html">bmi</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a class="nav-link" href="cv.html">cv</a>
+                </li>
+              </ul> 
+              <a href="login.html"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log in </button></a>
+            </div>
+          </nav>
+          <div class="mid  container text-center align-items-center mt-5">
+              <h1 id="event" class="text-dark display-3"><span>Events Happening Now!</span></h1>
+              <p class="py-2 mx-auto">Eventually all the events are displayed here do check it out!
+              </p>
+              <div class="container-sm ">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner ml-1.5 py-5 ">
+                      <div class="carousel-item active">
+                        <a  href="#coronation">Read More<br><br><img src="kingfinal.jpg" class="img-fluid height" alt="..."></a>
+                      </div>
+                      <div class="carousel-item">
+                        <a  href="#award">Read More<br><br><img src="president.jpg" class="img-fluid height" alt="..."></a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="#lhendup">Read More<br><br><img src="lhendup.jpg" class="img-fluid height" alt="..."></a>
+                      </div>
+                      <div class="carousel-item">
+                        <a  href="#queen">Read More<br><br><img src="queen.jpg" class="img-fluid height" alt="..."></a>
+                  </div>
+                  </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>      
+    </header>
+    <!-- corornation part -->
+     <hr id="coronation" class="container mx-auto my-2">
+     <div class="row  align-items-center">
+      <div class="content col-lg-6 col-md-6 col-12 p-2">
+        <h6 id="coronation" class="text-center  pt-5"><a href="#" style="color: black;"><i>Gcit events</i></a></h6>
+        <h1 class="text-center my-2 text-primary">12th Coronation Day</h1>
+        <p class="text-center p-2">Gyalpozhing College of Information Technology woukd like to join nation in commemorating and paying tribute to
+          His Majesty the Druk Gyalpo on the 12th Coronation Aniversary.We offer our sincere prayers for the good health and long life of His 
+          Majesty the Druk Gyalpo.  </p> 
+      </div>
+      <div class="img col-lg-6 col-md-6 col-12 my-2 p-2">
+        <img class="img-fluid w-75 ml-auto pl-5"  src="kingfinal.jpg" alt="">
+        <h6 id="coronation" class="text-center pt-3"><i> <b>December 16, 2020</b> </i></h6> 
+      </div>
+    </div>
+    <!-- director part -->
+    <hr id="award" class="container mx-auto my-5">
+    <div class="row  align-items-center">
+      <div class="content col-lg-6 col-md-6 col-12 p-2 ">
+        <h6 class="text-center  pt-5"><a href="#" style="color: black;"><i>Gcit events</i></a></h6>
+        <img class="img-fluid w-75  pl-5"  src="president.jpg" alt="">
+        <h1 class="text-center my-2 text-primary ">Dedicated Service Award 2020</h1>
+          <p class="text-center p-2">The staff of the Gyalpozhing College of Information Technology have been awarded Dedicated Service Award 2020. Mr. Sonam Lhendup, Administrative Assistant has been awarded bronze medal for 10 years, in recognition of his hard work, commitment and dedication to the Tsa-Wa-Sum.
+            The staff and students of the college would like to congratulate him for the well-deserved recognition and award.
+          </p> 
+      </div>
+      <div class="img col-lg-6 col-md-6 col-12 my-2 pt-2">
+        <img class="img-fluid w-75  pl-5"  src="lectures.jpg" alt=""> <br> <br> <br>
+        <img class="img-fluid w-75  pl-5"  src="god.jpg" alt="">
+        <h6 id="coronation" class="text-center pt-3"><i> <b>December 16, 2020</b> </i></h6>
+      </div>
+    </div>
+    <!-- lhendup part -->
+    <hr id="lhendup" class="container mx-auto my-5">
+    <div class="row  align-items-center">
+      <div class="content col-lg-6 col-md-6 col-12 p-2">
+        <h6 id="coronation" class="text-center  pt-5"><a href="#" style="color: black;"><i>Gcit events</i></a></h6>
+        <h1 class="text-center my-2 text-primary">Dedicated Service Award 2019</h1>
+          <p class="text-center p-2">The staff of the Gyalpozhing College of Information Technology have been awarded Dedicated Service Award 2019. Mr. Lhendup Dorji, Assist. Professor, has been awarded silver medal for 20 years of service and Mr. Barma has been awarded bronze medal for 10 years, in recognition of their hard work, commitment and dedication to the Tsa-wa-sum.
+            The staff and students of the college would like to congratulate them for the well-deserved recognition and award. 
+          </p> 
+      </div>
+      <div class="img col-lg-6 col-md-6 col-12 my-2 p-2">
+        <img class="img-fluid w-75 ml-auto pl-5"  src="lhendup.jpg" alt="">
+        <h6 id="coronation" class="text-center pt-3"><i> <b>December 16, 2020</b> </i></h6> 
+      </div>
+    </div>
+    <!-- queen part -->
+    <hr id="queen" class="container mx-auto my-5">
+    <div class="row  align-items-center">
+      <div class="content col-lg-6 col-md-6 col-12 p-2">
+        <h6 id="coronation" class="text-center  pt-5"><a href="#" style="color: black;"><i>Gcit events</i></a></h6>
+        <h1 class="text-center my-2 text-primary">Happy Birthday Your Majesty</h1>
+        <p class="text-center p-2">To commemorate the 30th Birth Anniversary of Her Majesty The Gyaltsun 
+          Jetsun Pema Wangchuk, the family of Gyalpozhing College of Information Technology offers our
+           prayers and best wishes for the long life and good health.
+        </p> 
+      </div>
+      <div class="img col-lg-6 col-md-6 col-12 my-2 p-2">
+        <img class="img-fluid w-75 h-30 ml-auto pl-5"  src="q5.jpg" alt="">
+        <h6 id="coronation" class="text-center pt-3"><i> <b>June 4, 2020</b> </i></h6>
+      </div>
+    </div>
+    <!-- footer horizontal -->
+  <hr class="container mx-auto my-5">
+  <!-- Footer -->
+<footer class="bg-dark text-center text-white ">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <a class="btn btn-outline-primary btn-floating m-1" href="#!" role="button"><i class="fas fa-share-alt-square">Available</i></a>
+      <!-- Facebook -->
+      <a class="btn btn-outline-primary btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+     <!-- youtube -->
+      <a class="btn btn-outline-danger btn-floating m-1" href="#!" role="button"><i class="fab fa-youtube"></i></a>
+     <!-- Google -->
+      <a class="btn btn-outline-success btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i></a>
+      <!-- Instagram -->
+      <a class="btn btn-outline-warning btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+      <!-- Github -->
+      <a class="btn btn-outline-info btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i ></a>
+    </section>
+    <!-- //Section: Social media -->
+    <!-- Section: Form -->
+    <section class="">
+      <form action="" method="GET"> 
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up </strong>
+            </p>
+          </div>
+          <!--//Grid column-->
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example2" class="form-control" placeholder="ugyen@gmail.com" />
+              <label class="form-label" for="form5Example2"></label>
+            </div>
+          </div>
+          <!--//Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-success mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--//Grid column-->
+        </div>
+        <!--//Grid row-->
+      </form>
+    </section>
+    <!-- //Section: Form -->
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        My profession in web developement is still on learning process and currently i am pursuing Bachelor in Computer Scinece.
+        I do believe in time as it never comes back! <q>Its now or never</q>
+      </p>
+    </section>
+    <!-- //Section: Text -->
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--//Grid column-->
+        <!--Grid column-->
+        <div class="dropdown mx-auto">
+          <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            RUB-Colleges
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="https://www.cst.edu.bt/index.php/en/">CST</a>
+            <a class="dropdown-item" href="https://www.cnr.edu.bt/">CNR</a>
+            <a class="dropdown-item" href="https://www.gcbs.edu.bt/">GCBS</a>
+            <a class="dropdown-item" href="https://www.jnec.edu.bt/en/">JNEC</a>
+            <a class="dropdown-item" href="https://www.pce.edu.bt/">PCE</a>
+            <a class="dropdown-item" href="https://www.sce.edu.bt/">SCE</a>
+            <a class="dropdown-item" href="https://www.sherubtse.edu.bt/">SHERUBTSE</a>
+          </div>
+        </div>
+        <!--//Grid column-->
+      </div>
+      <!--//Grid row-->
+    </section>
+    <!-- //Section: Links -->
+  </div>
+  <!--// Grid container -->
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Copyright:
+    <a class="text-white" href="#!" style="text-decoration: none;">Ugyenwebdev.com</a>
+  </div>
+  <!--// Copyright -->
+</footer>
+<!-- Footer -->
+<!--jQuery CDN  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>    
+</body>
+</html>
